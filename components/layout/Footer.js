@@ -1,20 +1,16 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
-import Logo from '../../images/logo.jpg';
-import Text from '../text/Text';
+import Logo from "../../images/logo.jpg";
+import Text from "../text/Text";
 
-import classes from './Footer.module.scss';
+import classes from "./Footer.module.scss";
 
 function Footer() {
   return (
     <footer className={classes.footer}>
       <Image src={Logo} alt="lethimcook logo" />
-      <Text>
-        Find the perfect
-  meal recipe
-        for you
-      </Text>
+      <Text>Find the perfect meal recipe for you</Text>
       <Text className={classes.copyright}>
         © “My-Meals” 2022 All right reserved.
       </Text>
