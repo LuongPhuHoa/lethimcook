@@ -1,8 +1,10 @@
-import React from 'react';
 import Image from 'next/image';
-import classes from './Footer.module.scss';
+import React from 'react';
+
 import Logo from '../../images/logo.jpg';
 import Text from '../text/Text';
+
+import classes from './Footer.module.scss';
 
 function Footer() {
   return (
@@ -10,7 +12,7 @@ function Footer() {
       <Image src={Logo} alt="lethimcook logo" />
       <Text>
         Find the perfect
-        meal recipe
+  meal recipe
         for you
       </Text>
       <Text className={classes.copyright}>

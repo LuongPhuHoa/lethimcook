@@ -1,5 +1,8 @@
 import {
-  Html, Head, Main, NextScript,
+  Head,
+  Html,
+  Main,
+  NextScript,
 } from 'next/document';
 
 function MyDocument() {
@@ -7,7 +10,7 @@ function MyDocument() {
     <Html>
       <Head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Mirza:wght@700&
+  href = "https://fonts.googleapis.com/css2?family=Mirza:wght@700&
         faimly=Poppins:wght@400&display=swap"
           rel="stylesheet"
         />
