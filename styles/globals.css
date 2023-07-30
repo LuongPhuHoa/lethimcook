@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
 	padding: 0;
 	margin: 0;
@@ -6,16 +10,19 @@
 
 :root {
 	--primary-color: #e85d04;
-	--secondary-color: #313235;
-	--background-color: #1f2023;
-	--text-color: #717171;
+	/* --secondary-color: #313235; */
+	--secondary-color: #eeecec;
+	/* --background-color: #1f2023; */
+	--background-color: #fafaff;
+	/* --text-color: #717171; */
+	--text-color: black;
 	--text-color-light: #9f9f9f;
 	--white: #fff;
 	--black: #000;
 }
 
 html {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Urbanist', sans-serif;
 	font-size: 10px;
 	color: var(--white);
 	background: var(--background-color);
@@ -23,7 +30,9 @@ html {
 
 a {
 	text-decoration: none;
-	color: inherit;
+	color: black;
+	font-weight: 600;
+	outline: #000;
 }
 
 /* img {
@@ -32,5 +41,13 @@ a {
 } */
 
 button {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Urbanist', sans-serif;
+}
+
+h1 {
+	color: black;
+}
+
+h3 {
+	color: black;
 }

@@ -2,6 +2,9 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Toaster } from 'react-hot-toast';
 import Layout from '@/components/layout/Layout';
 import '../styles/globals.css';
+// eslint-disable-next-line import/no-extraneous-dependencies
+// The line `import 'bootstrap/dist/css/bootstrap.min.css';` is importing the CSS file for the
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const queryClient = new QueryClient({
   defaultOptions: {
