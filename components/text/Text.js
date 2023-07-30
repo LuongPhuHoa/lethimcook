@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import React from 'react';
-import classes from './Test.module.scss';
+import classes from './Text.module.scss';
 
 function Text({ children, className }) {
   return (

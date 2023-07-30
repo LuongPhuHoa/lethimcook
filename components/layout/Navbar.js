@@ -25,6 +25,9 @@ function Navbar() {
         <li>
           <Link href="/reG">Register</Link>
         </li>
+        <li>
+          <Link href="/meals/recipe">Recipe</Link>
+        </li>
       </ul>
     </nav>
   );
