@@ -1,10 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
-	padding: 0;
-	margin: 0;
 	box-sizing: border-box;
+	outline: none;
 }
 
-:root {
+/* :root {
 	--primary-color: #e85d04;
 	--secondary-color: #313235;
 	--background-color: #1f2023;
@@ -12,13 +15,14 @@
 	--text-color-light: #9f9f9f;
 	--white: #fff;
 	--black: #000;
-}
+} */
 
 html {
 	font-family: 'Poppins', sans-serif;
 	font-size: 10px;
 	color: var(--white);
 	background: var(--background-color);
+	width: 100%;
 }
 
 a {
