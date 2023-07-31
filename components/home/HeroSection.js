@@ -1,65 +1,41 @@
 import React from 'react';
-import classes from './HeroSection.module.scss';
 
 function HeroSection() {
   return (
-    <div className="row">
-      <div className="col-3">
-        <header className={classes.header}>
-          <div id={classes.cover}>
-            <form method="get" action="">
-              <div className={classes.tb}>
-                <div className={classes.td}>
-                  <input type="text" placeholder="Search Ingredient" required />
-                </div>
-                <div className={classes.td} id={classes.s_cover}>
-                  <button type="submit">
-                    <div id={classes.s_circle} />
-                    <span> </span>
-                  </button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </header>
-        <section className={classes.section}>
-          <div className={classes.ingredient_container}>
-            <div className={classes.ingredient_category}>
-              <div className={classes.ingredient_category_item_title}>Vegetables</div>
-              <div className={classes.ingredient_category_items}>
-                <div className={classes.ingredient_item}>Carrot</div>
-                <div className={classes.ingredient_item}>Celery</div>
-                <div className={classes.ingredient_item}>Cucumber</div>
-                <div className={classes.ingredient_item}>Garlic</div>
-                <div className={classes.ingredient_item}>Ginger</div>
-              </div>
-            </div>
-          </div>
-        </section>
+    <div className="flex algin-center justify-center p-10 gap-4">
+      <div className="w-1/3">
+        <div className="flex border-2 rounded">
+          <button className="flex items-center justify-center px-4 border-r" type="submit">
+            <svg
+              className="w-6 h-6 text-gray-600"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"
+              />
+            </svg>
+          </button>
+          <input type="text" className="px-4 py-2 w-100" placeholder="Search Ingredients" />
+        </div>
       </div>
-      <div className="col-9">
-        <header className={classes.header}>
-          <div id={classes.cover}>
-            <form method="get" action="">
-              <div className={classes.tb}>
-                <div className={classes.td}>
-                  <input type="text" placeholder="Search Food Recipe" required />
-                </div>
-                <div className={classes.td} id={classes.s_cover}>
-                  <button type="submit">
-                    <div id={classes.s_circle} />
-                    <span> </span>
-                  </button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </header>
-        <section className={classes.section}>
-          <div className={classes.ingredient_container}>
-            
-          </div>
-        </section>
+      <div className="w-2/3">
+        <div className="flex border-2 rounded">
+          <button className="flex items-center justify-center px-4 border-r" type="submit">
+            <svg
+              className="w-6 h-6 text-gray-600"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"
+              />
+            </svg>
+          </button>
+          <input type="text" className="px-4 py-2 w-70" placeholder="Search Recipes" />
+        </div>
       </div>
     </div>
   );
