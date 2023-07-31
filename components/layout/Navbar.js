@@ -1,18 +1,17 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
-import Logo from '../../images/logo.jpg';
+import Logo from "../../images/logo.jpg";
 
-import classes from './Navbar.module.scss';
+import classes from "./Navbar.module.scss";
 
 function Navbar() {
   return (
     <nav className={classes.navbar}>
       <Link href="/" legacyBehavior>
         <a className={classes.logo}>
-          <Image src={
-    Logo} />
+          <Image src={Logo} />
         </a>
       </Link>
       <ul className={classes.navLinks}>
