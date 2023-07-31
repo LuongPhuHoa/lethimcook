@@ -1,15 +1,13 @@
 // import Signin from './signin';
 
 export default function Home() {
-  return (
-    <h1>Hello world</h1>
-  );
+  return <h1>Hello world</h1>;
 }
 
 // import Signin from './signin';
 
-  // export default function Root() {
-  //   return (
-  //     <Signin />
-  //   );
-  // }
+// export default function Root() {
+//   return (
+//     <Signin />
+//   );
+// }

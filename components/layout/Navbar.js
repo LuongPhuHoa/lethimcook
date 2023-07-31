@@ -1,11 +1,11 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
-import Logo from '../../images/logo.jpg';
+import Logo from "../../images/logo.jpg";
 
-import classes from './Navbar.module.scss';
-import Search from './Search';
+import classes from "./Navbar.module.scss";
+import Search from "./Search";
 
 function Navbar() {
   return (
