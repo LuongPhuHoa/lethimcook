@@ -1,8 +1,10 @@
-import React from 'react';
 import Image from 'next/image';
-import styles from './Footer.module.scss';
+import React from 'react';
+
 import Logo from '../../images/logo.jpg';
 import Text from '../text/Text';
+
+import styles from './Footer.module.scss';
 
 function Footer() {
   return (
@@ -26,11 +28,13 @@ function Footer() {
             <p>Sat-Wet: 09:00am-10:00PM</p>
             <p>Thursdayt: 09:00am-11:00PM</p>
             <p>Friday: 09:00am-8:00PM</p>
-            {/* <Text>Product 4</Text> */}
+            {/* <Text>Product 4</Text> */
+}
           </div>
         </div>
         <div className={styles.column}>
-          <div className={styles.information} style={{ paddingLeft: '30px' }}>
+          <div className={styles.information} style={{
+  paddingLeft: '30px' }}>
             <h3>User links</h3>
             <p>About us</p>
             <p>Contact us</p>
@@ -56,6 +60,6 @@ function Footer() {
       </div>
     </div>
   );
-}
+          }
 
-export default Footer;
+          export default Footer;

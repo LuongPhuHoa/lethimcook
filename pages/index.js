@@ -1,6 +1,5 @@
-import HeroSection from '../components/home/HeroSection';
 import FoodSection from '../components/home/FoodSection';
-
+import HeroSection from '../components/home/HeroSection';
 
 export default function Home() {
   return (
@@ -13,8 +12,8 @@ export default function Home() {
 
 // import Signin from './signin';
 
-// export default function Root() {
-//   return (
-//     <Signin />
-//   );
-// }
+  // export default function Root() {
+  //   return (
+  //     <Signin />
+  //   );
+  // }
