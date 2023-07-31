@@ -4,6 +4,7 @@ import Layout from '../components/layout/Layout';
 import '../styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
