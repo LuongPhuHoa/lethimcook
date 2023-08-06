@@ -8,7 +8,6 @@ function Layout({ children }) {
       <div className={classes.container}>
         <Navbar />
         {children}
-
       </div>
       <Footer />
     </>

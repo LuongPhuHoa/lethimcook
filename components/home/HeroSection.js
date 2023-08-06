@@ -2,9 +2,9 @@ import React from 'react';
 
 function HeroSection() {
   return (
-    <div className="flex algin-center justify-center p-10 gap-4">
-      <div className="w-1/3">
-        <div className="flex border-2 rounded">
+    <div className="flex algin-center justify-center px-10 gap-3">
+      <div className="w-1/3 pr-2">
+        <div className="flex border-2 rounded w-full">
           <button className="flex items-center justify-center px-4 border-r" type="submit">
             <svg
               className="w-6 h-6 text-gray-600"

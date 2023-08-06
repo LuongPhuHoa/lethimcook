@@ -3,7 +3,7 @@ import FoodSection from '../components/home/FoodSection';
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
       <HeroSection />
       <FoodSection />
     </div>
