@@ -4,11 +4,11 @@ import React from "react";
 
 import classes from "./Button.module.scss";
 
-function ButtonWithLink({link = "/", children, variant = "secondary"}) {
+function ButtonWithLink({ link = "/", children, variant = "secondary" }) {
   return (
     <Link href={link}>
       <a
-  type = "button"
+        type="button"
         className={`${classes.button} ${classes[`variant__${variant}`]}`}
       >
         {children}
@@ -24,11 +24,17 @@ function Button({
 }) {
   return (
     <button
-  type = "button"
-  className = {clsx(classes.button, classes[`variant__${variant}`],
-                    className)} onClick =
-      {onClickHandler} > {" "} {children} {" "} <
-      /button>
+      type="button"
+      className={clsx(
+        classes.button,
+        classes[`variant__${variant}`],
+        className,
+      )}
+      onClick={onClickHandler}
+    >
+      {" "}
+      {children}{" "}
+    </button>
   );
 }
 
