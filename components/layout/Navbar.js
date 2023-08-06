@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import classes from './Navbar.module.scss';
 import Logo from '../../images/logo.jpg';
+import Search from './Search';
 
 function Navbar() {
   return (
