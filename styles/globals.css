@@ -7,7 +7,7 @@
 	outline: none;
 }
 
-/* :root {
+* :root {
 	--primary-color: #e85d04;
 	/* --secondary-color: #313235; */
 	--secondary-color: #eeecec;
@@ -16,14 +16,14 @@
 	/* --text-color: #717171; */
 	--text-color: black;
 	--text-color-light: #9f9f9f;
-	--white: #fff;
+	--white: #ffffff;
 	--black: #000;
 } */
 
 html {
 	font-family: 'Urbanist', sans-serif;
 	font-size: 10px;
-	color: var(--white);
+	color: var(--black);
 	background: var(--background-color);
 	width: 100%;
 }
