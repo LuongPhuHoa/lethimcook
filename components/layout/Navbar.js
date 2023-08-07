@@ -14,7 +14,7 @@ function Navbar() {
         </a>
       </Link>
       <div className="flex justify-between items-center align-middle self-center">
-        <ul className={classes.navLinks}>
+        <ul>
           <li>
             <Link className=" text-decoration-none text-gray-900 font-medium" href="/meals">Meals</Link>
           </li>
